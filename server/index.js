@@ -16,7 +16,7 @@ app.post("/api/stripe/webhook", express.raw({type:"application/json"}), stripeWe
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-   origin: "http://localhost:5173",
+   origin: "https://ai-website-builder-3-r2h8.onrender.com",
    credentials: true
 }));
 app.use("/api/auth", authRouter);
