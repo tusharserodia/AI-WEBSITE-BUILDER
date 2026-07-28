@@ -10,7 +10,7 @@ import Generate from "./pages/Generate"
 import LiveSite from "./pages/LiveSite"
 import Pricing from "./pages/Pricing"
 
-export const serverUrl= "http://localhost:8000"
+export const serverUrl= "https://ai-website-builder-8f5e.onrender.com"
 
 const App = () => {
     useGetCurrentUser();
